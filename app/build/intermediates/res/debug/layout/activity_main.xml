@@ -1,0 +1,24 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" android:gravity="center">
+
+
+        <com.chart.PieChart
+            android:id="@+id/progressArc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:max="180"
+            android:progress="60" />
+
+
+    </LinearLayout
+  >
+</HorizontalScrollView><!-- From: file:/home/techjini/AndroidStudioProjects/PieChart/app/src/main/res/layout/activity_main.xml -->
